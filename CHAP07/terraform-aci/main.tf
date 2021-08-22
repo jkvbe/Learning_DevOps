@@ -5,6 +5,10 @@ terraform {
   required_version = ">= 0.12"
 }
 
+provider "azurerm" {
+  features {}
+}
+
 resource "azurerm_resource_group" "acidemobook" {
   name     = "demoBook"
   location = "westus2"
