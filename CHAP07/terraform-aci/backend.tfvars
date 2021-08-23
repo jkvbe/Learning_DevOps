@@ -1,4 +1,4 @@
-resource_group_name  = "playground_rg"
-storage_account_name = "storageremotetf143523"
+resource_group_name  = "devops"
+storage_account_name = "Publish Pipeline Artifacts"
 container_name       = "tfbackends"
 key                  = "aci-demo.tfstate"

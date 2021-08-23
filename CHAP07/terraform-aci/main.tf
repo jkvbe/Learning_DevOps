@@ -26,9 +26,9 @@ variable "imageversion" {
   description = "Tag of the image to deploy"
 }
 
-variable "dockerhub-username" {
-  description = "DockerHub username"
-}
+#variable "dockerhub-username" {
+#  description = "DockerHub username"
+#}
 
 
 resource "azurerm_container_group" "aci-myapp" {
