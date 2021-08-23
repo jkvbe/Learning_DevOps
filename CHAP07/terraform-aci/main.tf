@@ -40,7 +40,7 @@ resource "azurerm_container_group" "aci-myapp" {
   os_type             = "linux"
   container {
     name   = "myappdemo"
-    image  = "devopsregistry4786.azurecr.io/demobook:${var.imageversion}"
+    image  = "devopslearning14321.azurecr.io/demobook:${var.imageversion}"
     cpu    = "0.5"
     memory = "1.5"
 
